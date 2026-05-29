@@ -48,3 +48,5 @@ Look for sharp jumps in conservation during training — evidence of phase trans
 The **neuron-level conservation** (within-layer coactivation × weight-similarity graph) shows the clearest signal: it increases monotonically during training, approaching positive values as the network converges. The **parameter-level conservation** (between-layer gradient correlation) is noisier but shows meaningful anti-correlation with accuracy.
 
 This connects to the Model Descent Roadmap: neuron-level CR is the right signal for deciding when to compress layers.
+
+Part of the [SuperInstance OpenConstruct](https://github.com/SuperInstance/OpenConstruct) ecosystem.
